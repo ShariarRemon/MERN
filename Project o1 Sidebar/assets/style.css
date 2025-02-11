@@ -9,24 +9,6 @@ body {
     height: 100vh;
 }
 
-/* menu styles */
-.menu {
-    display: none;
-    background-color: black;
-}
-
-.menu ul {
-    display: flex;
-    margin: 0;
-    justify-content: space-between;
-}
-.p-3 {
-    padding: 1rem !important;
-}
-.menu ul :hover {
-    background-color: #19033d;
-    border-radius: 5px;
-}
 
 /* Sidebar Styles */
 .sidebar {
@@ -64,6 +46,28 @@ body {
 
 .sidebar-menu li:hover {
     background-color: #312f2f;
+    border-radius: 5px;
+}
+
+
+/* menu styles */
+.menu {
+    /* display: none; */
+    width: 100px;
+    height: 100vh;
+    background-color: black;
+}
+
+.menu ul {
+     display: flex;
+     margin: 0;
+     justify-content: space-between;
+} 
+.p-3 {
+    padding: 1rem !important;
+}
+.menu ul :hover {
+    background-color: #19033d;
     border-radius: 5px;
 }
 
